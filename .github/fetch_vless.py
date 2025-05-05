@@ -2,9 +2,9 @@ from telethon.sync import TelegramClient
 import re
 import os
 
-api_id = int(os.environ["23438806"])
-api_hash = os.environ["d4d1a0243151a480c1633edf5394cba1"]
-channel = os.environ["@safeNet4All"]
+api_id = int(os.environ["TG_API_ID"])
+api_hash = os.environ["TG_API_HASH"]
+channel = os.environ["TG_CHANNEL"]
 
 client = TelegramClient('anon', api_id, api_hash)
 
