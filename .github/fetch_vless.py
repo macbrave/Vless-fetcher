@@ -4,7 +4,7 @@ import os
 
 api_id = int(os.environ["23438806"])
 api_hash = os.environ["d4d1a0243151a480c1633edf5394cba1"]
-channel = os.environ["safeNet4All"]
+channel = os.environ["@safeNet4All"]
 
 client = TelegramClient('anon', api_id, api_hash)
 
